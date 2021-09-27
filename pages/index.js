@@ -41,7 +41,7 @@ export default function Home({initialTodos, user}) {
           )
         }
         {
-          !user && <p>You're not logged in boi</p>
+          !user && <p>You&apos;re not logged in boi</p>
         }
       </main>
     </div>

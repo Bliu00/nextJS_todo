@@ -31,12 +31,14 @@ export default function Navbar(){
                 }
                 {
                     !user && (
-                        <Link href="/api/auth/login">
-                            <a className=" rounded bg-blue-500 hover:bg-blue-600 
-                            text-white py-2 px-4">   
-                                Login
-                            </a>
-                        </Link>
+                        <>
+                            <Link href="/api/auth/login">
+                                <a className=" rounded bg-blue-500 hover:bg-blue-600 
+                                text-white py-2 px-4">   
+                                    Login
+                                </a>
+                            </Link>
+                        </>
                     )
                 }
             </div>
