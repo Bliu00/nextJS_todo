@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Navbar from '../components/Navbar'
 import Todo from '../components/Todo';
-import { table, minifyRecords} from './api/utils/airtables'
+import { table, minifyRecords} from './api/utils/airtable'
 import {TodosContext} from '../contexts/TodosContext';
 import {useEffect, useContext} from 'react';
 import { useUser, getSession} from '@auth0/nextjs-auth0';

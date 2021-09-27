@@ -1,5 +1,5 @@
 import { getSession, withApiAuthRequired } from '@auth0/nextjs-auth0';
-import {table, getMinifiedRecord} from './utils/airtables'
+import {table, getMinifiedRecord} from './utils/airtable'
 import OwnsRecord from "./middleware/OwnsRecord"
 
 export default OwnsRecord(async (req, res) => { 
