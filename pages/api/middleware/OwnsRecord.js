@@ -1,4 +1,4 @@
-import { table } from '../utils/airtable';
+import { table } from '../utils/airtables';
 import {getSession, withApiAuthRequired} from "@auth0/nextjs-auth0";
 
 const ownsRecord = (handler) => withApiAuthRequired( async (req, res) => {
