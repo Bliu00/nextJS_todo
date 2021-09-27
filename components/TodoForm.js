@@ -10,7 +10,6 @@ export default function TodoForm() {
         e.preventDefault();
         addTodo(todo);
         setTodo("");
-
     }
     return (
         <form className="form my-6" onSubmit={handleSubmit}>
