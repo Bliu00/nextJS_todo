@@ -1,4 +1,4 @@
-import {table, minifyRecords} from './utils/Airtable'
+import {table, minifyRecords} from './utils/airtable'
 import { getSession, withApiAuthRequired } from '@auth0/nextjs-auth0';
 
 export default withApiAuthRequired(async (req, res) => { 
